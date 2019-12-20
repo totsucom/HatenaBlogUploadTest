@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "HatenaOAuthThreadTest", "HatenaOAuthThreadTest\HatenaOAuthThreadTest.vbproj", "{CB57E2FE-A69A-48DD-9E60-6A661A7E8B0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB57E2FE-A69A-48DD-9E60-6A661A7E8B0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB57E2FE-A69A-48DD-9E60-6A661A7E8B0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB57E2FE-A69A-48DD-9E60-6A661A7E8B0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB57E2FE-A69A-48DD-9E60-6A661A7E8B0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C0D6EE1-FF78-429E-ACBC-4CE836EB3B09}
+	EndGlobalSection
+EndGlobal
