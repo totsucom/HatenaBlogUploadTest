@@ -175,7 +175,7 @@ Public Class HatenaLogin
             End SyncLock
             Threading.Thread.Sleep(100)
         Loop
-        Threading.Thread.Sleep(100)
+        Threading.Thread.Sleep(300) '待ち時間が少ないと失敗しやすい（経験）
     End Sub
 
     'ログイン処理を進めるスレッド

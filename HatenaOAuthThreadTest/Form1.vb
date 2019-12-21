@@ -8,8 +8,8 @@ Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
         '権限取得
-        'WebBrowser1を渡さない場合は裏で実行してくれる
-        'ButtonStepを渡してステップ実行
+        'WebBrowser1を渡さない場合は裏で実行してくれる（といってもForm上に無残に表示されるので工夫は必要）
+        'ButtonStepを渡しすとウェブブラウザを使用する部分をステップで進められる
         HatenaLogin.Open(Me, "read_public,read_private,write_private", WebBrowser1, ButtonStep)
 
         '完了するまでタイマーで監視

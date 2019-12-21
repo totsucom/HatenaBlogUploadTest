@@ -3,6 +3,8 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+gitに上げるときはログイン情報を削除すること.txt
+
 # User-specific files
 *.rsuser
 *.suo
